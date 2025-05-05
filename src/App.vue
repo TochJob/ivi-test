@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { RouterView } from 'vue-router'
+import { LayoutWrapper } from './modules/layout'
 </script>
 
 <template>
-  <RouterView />
+  <LayoutWrapper />
 </template>
