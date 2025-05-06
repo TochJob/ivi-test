@@ -1,0 +1,6 @@
+<script setup lang="ts"></script>
+<template>
+  <div class="max-w-7xl px-4 sm:px-6 lg:px-10 mx-auto">
+    <slot></slot>
+  </div>
+</template>
