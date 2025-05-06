@@ -3,6 +3,7 @@ import { LogoMain } from '@/assets/svg/index'
 
 import type { HeaderNavigationItem } from './'
 import { AppBasket } from '../app'
+import { useRouter } from 'vue-router'
 
 const navList: HeaderNavigationItem[] = [
   { name: 'Product', to: 'product' },
@@ -23,6 +24,12 @@ const navList: HeaderNavigationItem[] = [
     to: 'blog',
   },
 ]
+
+const router = useRouter()
+
+function moveToBasket() {
+  router.push('/basket')
+}
 </script>
 <template>
   <header class="bg-white flex justify-center py-4">
@@ -37,7 +44,7 @@ const navList: HeaderNavigationItem[] = [
         >{{ item.name }}</RouterLink
       >
 
-      <AppBasket />
+      <AppBasket @click="moveToBasket" />
     </nav>
   </header>
 </template>
