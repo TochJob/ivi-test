@@ -4,5 +4,6 @@ import AppContainer from './components/AppContainer.vue'
 import AppTitle from './components/AppTitle.vue'
 import AppDescriptionItem from './components/AppDescriptionItem.vue'
 import AppSlider from './components/AppSlider.vue'
+import AppInput from './components/AppInput.vue'
 
-export { AppBasket, AppButton, AppContainer, AppTitle, AppDescriptionItem, AppSlider }
+export { AppBasket, AppButton, AppContainer, AppTitle, AppDescriptionItem, AppSlider, AppInput }
