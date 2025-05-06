@@ -33,18 +33,18 @@ const topicsList: TopicItem[] = [
 ]
 </script>
 <template>
-  <section class="bg-white py-24">
+  <section class="bg-white md:py-24 py-12">
     <AppContainer class="flex flex-col gap-8">
       <AppTitle>The most in-demand topics</AppTitle>
-      <div class="grid grid-cols-12 gap-6 auto-rows-auto">
+      <div class="grid md:grid-cols-12 gap-6 auto-rows-auto">
         <MainTopicsItem
           v-for="(item, index) in topicsList"
           :key="index"
           :item="item"
           class="col-span-4"
           :class="{
-            'col-start-2 row-start-2': index === 3,
-            'col-start-7 row-start-2': index === 4,
+            'md:col-start-2 md:row-start-2': index === 3,
+            'md:col-start-7 md:row-start-2': index === 4,
           }"
         />
       </div>

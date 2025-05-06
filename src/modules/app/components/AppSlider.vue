@@ -7,7 +7,6 @@ import {
   Navigation as CarouselNavigation,
 } from 'vue3-carousel'
 
-// Значения по умолчанию
 const props = withDefaults(
   defineProps<{
     slidesCount?: number

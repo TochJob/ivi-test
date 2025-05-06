@@ -15,14 +15,14 @@ const footerLinks: { title: string; link: string; type?: 'mail' }[] = [
 ]
 </script>
 <template>
-  <footer class="bg-white pt-24 pb-8">
+  <footer class="bg-white md:pt-24 pb-8 pt-12">
     <AppContainer class="flex flex-col gap-8">
-      <div class="bg-general rounded-2xl px-24 py-16">
+      <div class="bg-general rounded-2xl md:px-24 md:py-16 px-4 py-10">
         <FormSubscribe />
       </div>
       <div class="flex justify-between">
         <a
-          class="text-general font-medium text-xl hover:text-general/60 duration-300"
+          class="text-general underline md:no-underline text-base font-medium md:text-xl hover:text-general/60 duration-300"
           v-for="(item, index) of footerLinks"
           :key="index"
           :href="item.type ? `mailto:${item.link}` : item.link"

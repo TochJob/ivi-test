@@ -35,13 +35,13 @@ const descriptionList: AdvantagesItem[] = [
   <section class="bg-white">
     <AppContainer class="flex flex-col items-center py-24 gap-8">
       <AppTitle>Why Ivi Green?</AppTitle>
-      <div class="flex gap-3 items-start">
+      <div class="flex gap-3 items-start flex-col md:flex-row">
         <MainAdvantagesCard v-for="(item, index) of advantagesList" :key="index" :item="item" />
       </div>
-      <div class="grid grid-cols-2 gap-5">
+      <div class="grid md:grid-cols-2 grid-cols-1 gap-5">
         <AppDescriptionItem v-for="(item, index) of descriptionList" :key="index" :item="item" />
       </div>
-      <AppButton>Show all kits</AppButton>
+      <AppButton class="w-full md:w-fit">Show all kits</AppButton>
     </AppContainer>
   </section>
 </template>

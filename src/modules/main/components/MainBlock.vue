@@ -26,7 +26,7 @@ const advantagesList = [
           <li v-for="(item, index) of advantagesList" :key="index">{{ item }}</li>
         </ul>
 
-        <AppButton>Show all kits</AppButton>
+        <AppButton class="w-full md:w-fit">Show all kits</AppButton>
       </div>
 
       <!-- Right column -->
