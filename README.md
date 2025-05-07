@@ -22,3 +22,8 @@ npm install
 ```sh
 npm run dev
 ```
+
+
+TODO list:
+- [ ] Add dark theme (Tailwind)
+- [ ] Add multi language (i18n)
