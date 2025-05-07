@@ -1,39 +1,24 @@
-# .
+# Introduction
 
-This template should help get you started developing with Vue 3 in Vite.
+https://www.figma.com/design/HybZo2ANnitqUijyq4hrjO/Ivigreen.com-(%2Ball-landings)?node-id=2725-18567&p=f&t=tnkS8dvNWq6vI2oT-0
+Due to the fact that for the test assignment on the middle developer was given obviously part of the commercial product, the main part was done. You can see everything from html knowledge to working with overused Vue3 components and the architecture of the whole application here.
 
-## Recommended IDE Setup
+## Used stack
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Vue 3: Composition API  
+- TypeScript  
+- TailwindCSS  
+- Pinia  
+- Vite  
 
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
 
 ## Project Setup
 
 ```sh
 npm install
 ```
-
 ### Compile and Hot-Reload for Development
 
 ```sh
 npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
 ```
